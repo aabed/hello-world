@@ -32,12 +32,14 @@ jobs:
           destination: tr1
 
   build_docker:
-    machine: true
+    docker:
+      - image: google/cloud-sdk
     environment:
       - PROJECT_NAME: "hello-world"
       - GOOGLE_PROJECT_ID: "pivotal-layout-226314"
     steps:
       - checkout
+      - setup_remote_docker
       - run:
           command: |
             echo $GCLOUD_SERVICE_KEY > ${HOME}/gcloud-service-key.json
