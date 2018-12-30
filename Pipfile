@@ -7,4 +7,4 @@ verify_ssl = true
 
 [packages]
 django = "==2.1.2"
-
+gunicorn = "*"
