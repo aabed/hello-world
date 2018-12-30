@@ -25,7 +25,7 @@ SECRET_KEY = 'qr#7ng59=m@g8mjipzmuy&0-@oy52eyef3yy(3_(*_3ei#=0o8'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['35.239.67.173','hello-world.aabed.me']
+ALLOWED_HOSTS = ['35.239.67.173','hello-world.aabed.me','0.0.0.0/0']
 
 
 # Application definition
