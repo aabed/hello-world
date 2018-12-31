@@ -9,8 +9,8 @@
 
 ### Docker
 
- 1. `docker build -t hello-world .` `docker run -d -p 8000:8000
- 2.  `hello-world`
+ 1. `docker build -t hello-world .` 
+ 2. `docker run -d -p 8000:8000 hello-world`
 
 ## Running the tests
 `python manage.py test`
